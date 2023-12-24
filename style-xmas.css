@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background-xmas.gif);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+ 
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  
+
+
+   padding: 10px;
+   border-radius: 15px;
+   color: black;
+   background-color: palegreen;
+   cursor: pointer;
+   font-family:  serif;
+   font-weight: 700;
+    
+}
+
+.btn:hover{
+    background-color: darkgray;
+}
+
+.video{
+    width: 500px;
+    height: 500px;
+    
+    border: 5px solid darkred;
+    border-radius: 5px;
+}
